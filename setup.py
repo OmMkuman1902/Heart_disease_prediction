@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-
+from sklearn.model_selection import train_test_split
 hypen_e_dot='-e .'
 def get_requirements(file_path:str)->List[str]:
     # read the requirement.txt line by line
