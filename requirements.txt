@@ -4,5 +4,6 @@ numpy
 scikit-learn
 matplotlib
 dill
+xgboost
 #-e .
 # to run this file and install packages "install -r requirements.txt"
